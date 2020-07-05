@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="4dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:columnCount="10"
+            android:orientation="vertical"
+            android:rowCount="10">
+
+            <TextView
+                android:id="@+id/qty1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="70dp"
+                android:gravity="start"
+                android:text=" प्रमाण \ n (किलोमध्ये)"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/qty"
+                android:layout_width="164dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="in kg"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginTop="30dp"
+                android:gravity="start"
+                android:text="कमोडिटी"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="162dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="per kg"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text=" हस्तांतरण तपशील"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text=" वाहन  संख्या"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/vn"
+                android:layout_width="162dp"
+                android:layout_height="60dp"
+                android:layout_row="4"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="per kg"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text=" दृश्य नाम"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/vname"
+                android:layout_width="162dp"
+                android:layout_height="60dp"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="per kg"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text="वाहन प्रकार"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/vt"
+                android:layout_width="162dp"
+                android:layout_height="60dp"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="per kg"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text="ETA"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/eta"
+                android:layout_width="162dp"
+                android:layout_height="60dp"
+                android:layout_row="7"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="per kg"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

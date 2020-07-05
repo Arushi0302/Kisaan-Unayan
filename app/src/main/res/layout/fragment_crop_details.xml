@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text=" तपशील"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:columnCount="10"
+            android:orientation="vertical"
+            android:rowCount="10">
+
+            <TextView
+                android:id="@+id/qty1"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="70dp"
+                android:gravity="start"
+                android:text="प्रमाण \ n (किलोमध्ये)"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/qty"
+                android:layout_width="164dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint=" किलो मध्ये"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:text=" PRICE \ n (प्रति किलो)"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="162dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint=" प्रति किलो"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="151dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:text=" क्रॉप"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/crop"
+                android:layout_width="168dp"
+                android:layout_height="87dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_marginTop="20dp"
+                android:completionThreshold="1"
+                android:entries="@array/Crops"
+                android:gravity="center"
+                android:hint="पिकाचे नाव"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/croppic"
+                android:layout_width="188dp"
+                android:layout_height="169dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/addpic"
+                android:layout_width="146dp"
+                android:layout_height="65dp"
+                android:layout_row="4"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#88ebe4e4"
+                android:text="प्रतिमा जोडा"
+                android:textColor="#ff000000"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="133dp"
+                android:layout_height="72dp"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text=" प्रस्तुत करणे"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

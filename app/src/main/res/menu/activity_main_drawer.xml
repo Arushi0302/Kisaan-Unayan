@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_crops"
+            android:title="@string/menu_crop_details" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_pay_day"
+            android:title="@string/menu_crop_sales" />
+    </group>
+    <item android:title="@string/menu_profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_pro_1"
+                    android:icon="@drawable/ic_farmer_profile"
+                    android:title="@string/menu_personal_details" />
+                <item
+                    android:id="@+id/nav_pro_2"
+                    android:icon="@drawable/ic_address"
+                    android:title="@string/menu_address" />
+                <item
+                    android:id="@+id/nav_pro_3"
+                    android:icon="@drawable/ic_agricultural"
+                    android:title="@string/menu_agri_details" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_orders_details">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_misc_1"
+                    android:icon="@drawable/ic_farmer_profile"
+                    android:title="@string/menu_pending_orders" />
+                <item
+                    android:id="@+id/nav_misc_2"
+                    android:icon="@drawable/ic_address"
+                    android:title="@string/menu_order_approval" />
+                <item
+                    android:id="@+id/nav_misc_3"
+                    android:icon="@drawable/ic_agricultural"
+                    android:title="@string/menu_approved_order_details" />
+            </group>
+        </menu>
+    </item>
+
+   <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+    -->
+</menu>

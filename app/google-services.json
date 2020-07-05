@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320303007401",
+    "firebase_url": "https://farmers-friend-proj.firebaseio.com",
+    "project_id": "farmers-friend-proj",
+    "storage_bucket": "farmers-friend-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320303007401:android:91b6e385107f3d7ffc4bb8",
+        "android_client_info": {
+          "package_name": "com.example.sih_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320303007401-nn3b3vj6047hv4cnb44qpcakc77q64t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sih_2",
+            "certificate_hash": "5a7aec9d35b7e6f90a73c984336d0eb3b0a764b4"
+          }
+        },
+        {
+          "client_id": "320303007401-c8al482h25kq46qercjish4qqqr9d7a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEMNcHl9vz3TFTtkl-BikoKAuqlgW4rR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320303007401-c8al482h25kq46qercjish4qqqr9d7a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

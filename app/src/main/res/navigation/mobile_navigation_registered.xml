@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sih.ui.Details.DetailsFragment"
+        android:label="@string/menu_crop_details"
+        tools:layout="@layout/fragment_crop_details" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sih.ui.Sales.SalesFragment"
+        android:label="@string/menu_crop_sales"
+        tools:layout="@layout/fragment_sales" />
+
+    <fragment
+        android:id="@+id/nav_pro_1"
+        android:name="com.example.sih.ui.PROFILE.Personal_Profile.PersonalProfileFragment"
+        android:label="@string/menu_personal_profile"
+        tools:layout="@layout/fragment_profile_personal" />
+
+    <fragment
+        android:id="@+id/nav_pro_2"
+        android:name="com.example.sih.ui.PROFILE.Address_Profile.AddressProfileFragment"
+        android:label="@string/menu_address_profile"
+        tools:layout="@layout/fragment_profile_address" />
+
+    <fragment
+        android:id="@+id/nav_pro_3"
+        android:name="com.example.sih.ui.PROFILE.Agri_Profile.AgriProfileFragment"
+        android:label="@string/menu_agri_profile"
+        tools:layout="@layout/fragment_profile_agri" />
+
+    <fragment
+        android:id="@+id/nav_misc_1"
+        android:name="com.example.sih.ui.miscellaneous.misc1.Misc1Fragment"
+        android:label="@string/menu_pending_orders"
+        tools:layout="@layout/misc1_fragment" />
+
+    <fragment
+        android:id="@+id/nav_misc_2"
+        android:name="com.example.sih.ui.miscellaneous.misc2.Misc2Fragment"
+        android:label="@string/menu_personal_profile"
+        tools:layout="@string/menu_order_approval" />
+
+    <fragment
+        android:id="@+id/nav_misc_3"
+        android:name="com.example.sih.ui.miscellaneous.misc3.Misc3Fragment"
+        android:label="@string/menu_approved_order_details"
+        tools:layout="@layout/misc3_fragment" />
+
+    <!--
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.sih.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.sih.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+        -->
+</navigation>

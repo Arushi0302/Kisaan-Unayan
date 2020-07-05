@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">SIH-2</string>
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">नेव्हिगेशन शीर्षलेख</string>
+    <string name="action_settings">सेटिंग्ज</string>
+
+    <string name="menu_crop_details" translatable="false">पीक तपशील</string>
+    <string name="menu_crop_sales" translatable="false">पीक विक्री</string>
+    <string name="menu_personal_profile">वैकातिक माहिती</string>
+    <string name="menu_agri_profile" translatable="false">कृषी प्रोफाइल</string>
+    <string name="menu_address_profile" translatable="false">पत्ता प्रोफाइल</string>
+    <string name="menu_settings">सेटिंग्ज</string>
+    <string name="menu_share">सामायिक करा</string>
+    <string name="menu_send">पाठवा</string>
+    <string name="menu_personal_details">वैयक्तिक माहिती</string>
+    <string name="menu_address" translatable="false">पत्ता तपशील</string>
+    <string name="menu_agri_details" translatable="false">कृषी तपशील</string>
+    <string name="menu_profile">प्रोफाइल</string>
+    <string name="menu_misc_1" translatable="false">_misc_1</string>
+    <string name="menu__misc_2">_misc_2</string>
+    <string name="menu__misc_3">_misc_3</string>
+    <string name="menu_orders_details" translatable="false">ऑर्डर तपशील</string>
+    <string name="menu_pending_orders">प्रलंबित आदेश</string>
+    <string name="menu_order_approval" translatable="false">ऑर्डर मंजूरी</string>
+    <string name="menu_approved_order_details" translatable="false">मंजूर ऑर्डर तपशील</string>
+    <string name="title_activity_main_newbee">MainActivity_newbee</string>
+</resources>
+
