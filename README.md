@@ -29,4 +29,4 @@ This application is feasible solution for the problem faced by farmers of gettin
 
 This application can surely help farmers and other actors of supply chain in many ways. For more information and screenshots of the application, please follow our presentation on [Kisaan Unayan](https://docs.google.com/presentation/d/1QEB2SYx7Gv7QLhA6anbsthbXQHzgi6SRGAzSkLpMsyA/edit?usp=sharing)
 
-[Note - The application was developed for Smart India Internal Hackathon 2020]
+[Note - The application was developed for Smart India Internal Hackathon 2020 by team sankalp]
